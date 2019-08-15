@@ -42,7 +42,6 @@ describe "remove_element_from_start_of_array" do
     expect(remove_element_from_start_of_array(array)).to eq("wow")
   end
 end
-
 describe "retrieve_element_from_index" do 
   it "takes in an argument of an array and an index number and returns the element stored at that index" do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
@@ -50,6 +49,7 @@ describe "retrieve_element_from_index" do
     expect(retrieve_element_from_index(array, 2)).to eq("am")
   end
 end
+
 
 describe "retrieve_first_element_from_array" do 
   it "takes in an argument of an array and returns the first element stored in the array" do 
