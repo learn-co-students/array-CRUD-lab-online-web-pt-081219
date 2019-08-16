@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def create_an_empty_array
   []
 end
