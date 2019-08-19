@@ -47,7 +47,7 @@ describe "retrieve_element_from_index" do
   it "takes in an argument of an array and an index number and returns the element stored at that index" do 
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     index_number = 2
-    expect(retrieve_element_from_index(array, 2)).to eq("am")
+    expect(retrieve_element_from_index(array, index_number)).to eq("am")
   end
 end
 
